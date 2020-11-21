@@ -288,7 +288,7 @@ class Scanning extends Component {
         />
         {history && (
           <Col sm={3}>
-            <h3>Scan Log</h3>
+            <h3><FormattedMessage id="scan-log" defaultMessage="Scan Log" />{" "}</h3>
             <Card>
               <CardBody>
                 {scans
